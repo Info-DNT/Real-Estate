@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore 42 residential, commercial and luxury projects by devashribuilders." />
+  <title>Projects — devashribuilders</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=1">
+</head>
+<body data-testid="page-projects">
+  <div class="scroll-progress"></div>
+
+  <header class="navbar-dvb">
+    <div class="container-x nav-inner">
+      <a href="/index.html" class="brand"><span class="brand-mark">d</span><span>devashribuilders<small>est. 1998</small></span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/projects.html" class="active">Projects</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/blog.html">Journal</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="/contact.html" class="btn-primary nav-cta">Book a visit <span class="arrow">→</span></a>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <a href="/index.html">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/about.html">About</a>
+    <a href="/gallery.html">Gallery</a>
+    <a href="/blog.html">Journal</a>
+    <a href="/contact.html">Contact</a>
+  </aside>
+
+  <!-- PAGE HEAD -->
+  <section class="page-head">
+    <div class="container-x">
+      <div class="breadcrumb-dvb"><a href="/index.html">Home</a><span class="sep">/</span><span>Projects</span></div>
+      <h1 data-aos="fade-up">All forty-two<br/>of our addresses.</h1>
+      <p class="lead-text section-tag" data-aos="fade-up" data-aos-delay="100">Filter by category, by city, or scroll the entire portfolio. Every project below is either delivered or under active construction — nothing speculative.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS LIST -->
+  <section style="padding-top: 60px;" data-testid="projects-listing">
+    <div class="container-x">
+      <div class="filter-bar" data-testid="project-filter-bar" data-aos="fade-up">
+        <span class="filter-lbl">Filter</span>
+        <button class="filter-chip active" data-project-filter="all" data-testid="filter-all">All <span style="color:var(--ink-mute); margin-left:6px;">42</span></button>
+        <button class="filter-chip" data-project-filter="residential" data-testid="filter-residential">Residential</button>
+        <button class="filter-chip" data-project-filter="commercial" data-testid="filter-commercial">Commercial</button>
+        <button class="filter-chip" data-project-filter="luxury" data-testid="filter-luxury">Luxury</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <a href="#" class="project-card size-lg" data-project-cat="residential" data-aos="fade-up" data-testid="project-card-1">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80');"></div>
+          <span class="pc-tag">Residential</span>
+          <span class="pc-price">₹ 4.2 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>The Banyan Court</h3><span class="pc-loc">Koregaon Park · Pune · 24 units</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-md" data-project-cat="luxury" data-aos="fade-up" data-aos-delay="80">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80');"></div>
+          <span class="pc-tag">Luxury</span><span class="pc-price">₹ 9.8 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>House Of Stone</h3><span class="pc-loc">Lonavala · 6 villas</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-half" data-project-cat="commercial" data-aos="fade-up">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&q=80');"></div>
+          <span class="pc-tag">Commercial</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>Devashri Heights</h3><span class="pc-loc">BKC · Mumbai · 1.2L sqft</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-half" data-project-cat="residential" data-aos="fade-up" data-aos-delay="80">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80');"></div>
+          <span class="pc-tag">Residential</span><span class="pc-price">₹ 2.1 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>The Olive Grove</h3><span class="pc-loc">Indiranagar · Bangalore</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-md" data-project-cat="luxury" data-aos="fade-up">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80');"></div>
+          <span class="pc-tag">Luxury</span><span class="pc-price">₹ 14.5 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>The Quartz House</h3><span class="pc-loc">Alibaug · Beachfront</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-lg" data-project-cat="residential" data-aos="fade-up" data-aos-delay="80">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1400&q=80');"></div>
+          <span class="pc-tag">Residential</span><span class="pc-price">₹ 3.4 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>Pernera Residences</h3><span class="pc-loc">Aundh · Pune · 36 units</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-half" data-project-cat="commercial" data-aos="fade-up">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80');"></div>
+          <span class="pc-tag">Commercial</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>Mehta Workspaces</h3><span class="pc-loc">Whitefield · Bangalore</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-half" data-project-cat="luxury" data-aos="fade-up" data-aos-delay="80">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=80');"></div>
+          <span class="pc-tag">Luxury</span><span class="pc-price">₹ 7.6 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>Villa Sereno</h3><span class="pc-loc">Goa · Riverfront</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-full" data-project-cat="residential" data-aos="fade-up">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1800&q=80');"></div>
+          <span class="pc-tag">Residential</span><span class="pc-price">₹ 1.8 Cr — ₹ 6.2 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>The Maple Quarter — Master Plan</h3><span class="pc-loc">Hinjawadi · Pune · 184 units · Phase III</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-md" data-project-cat="residential" data-aos="fade-up">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1600573472556-e636c2acda88?w=1200&q=80');"></div>
+          <span class="pc-tag">Residential</span><span class="pc-price">₹ 2.6 Cr</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>Rosewood Lane</h3><span class="pc-loc">Kalyani Nagar · Pune</span></div><span class="pc-arrow">→</span></div>
+        </a>
+        <a href="#" class="project-card size-lg" data-project-cat="commercial" data-aos="fade-up" data-aos-delay="80">
+          <div class="pc-img" style="background-image: url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1400&q=80');"></div>
+          <span class="pc-tag">Commercial</span>
+          <div class="pc-shade"></div>
+          <div class="pc-meta"><div><h3>The Atrium</h3><span class="pc-loc">Powai · Mumbai · A+ grade</span></div><span class="pc-arrow">→</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORRIDOR MAP -->
+  <section style="background: var(--bg-alt);" data-testid="corridor-map">
+    <div class="container-x">
+      <div class="section-head">
+        <div data-aos="fade-up">
+          <div class="kicker" style="margin-bottom: 20px;">Our corridors</div>
+          <h2>Three cities. Curated.</h2>
+        </div>
+        <p class="lead-text section-tag" data-aos="fade-up" data-aos-delay="100">We build only in places we know intimately. Our planners live within 30 minutes of every site — and stay for a year after handover.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="office-card">
+            <div class="city">Pune corridor</div>
+            <p><strong style="color:var(--ink)">18 projects</strong> · Koregaon Park, Aundh, Hinjawadi, Kalyani Nagar, Baner</p>
+            <p style="font-size:.82rem; color:var(--ink-mute); letter-spacing:.1em; text-transform:uppercase; margin-top:14px;">Founded here · 1998</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="office-card">
+            <div class="city">Mumbai corridor</div>
+            <p><strong style="color:var(--ink)">14 projects</strong> · Bandra-Kurla, Powai, Lower Parel, Andheri West, Worli</p>
+            <p style="font-size:.82rem; color:var(--ink-mute); letter-spacing:.1em; text-transform:uppercase; margin-top:14px;">Since 2006</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="office-card">
+            <div class="city">Bangalore corridor</div>
+            <p><strong style="color:var(--ink)">10 projects</strong> · Indiranagar, Whitefield, HSR Layout, Koramangala, Hebbal</p>
+            <p style="font-size:.82rem; color:var(--ink-mute); letter-spacing:.1em; text-transform:uppercase; margin-top:14px;">Since 2014</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container-x">
+      <div class="cta" data-aos="zoom-in">
+        <div>
+          <div class="kicker" style="color: var(--sage); margin-bottom: 24px;">Find your address</div>
+          <h2>Tell us how you live — we'll match you to three homes.</h2>
+          <p>Our advisors don't sell. They listen first, then walk you through carefully shortlisted residences.</p>
+          <a href="/contact.html" class="btn-primary" style="margin-top:24px;">Schedule a tour <span class="arrow">→</span></a>
+        </div>
+        <div class="cta-side">Speak to a planner directly · +91 20 6543 2100</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container-x">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="color:#fff;"><span class="brand-mark">d</span><span>devashribuilders<small>est. 1998</small></span></div>
+          <p style="max-width: 320px;">Boutique real estate developers crafting homes that age beautifully across Pune, Mumbai and Bangalore.</p>
+        </div>
+        <div><h5>Explore</h5><a href="/index.html">Home</a><a href="/projects.html">Projects</a><a href="/about.html">About</a><a href="/gallery.html">Gallery</a><a href="/blog.html">Journal</a></div>
+        <div><h5>Contact</h5><a href="tel:+912065432100">+91 20 6543 2100</a><a href="tel:+912266789012">+91 22 6678 9012</a><a href="mailto:hello@devashribuilders.in">hello@devashribuilders.in</a></div>
+        <div>
+          <h5>Newsletter</h5>
+          <p>Quiet updates on new residences. Twice a year, never more.</p>
+          <form id="newsletter-form">
+            <div style="display:flex; gap:8px; background: rgba(255,255,255,.06); border-radius: 999px; padding: 4px;">
+              <input type="email" placeholder="your@email.com" required style="background: transparent; border: none; padding: 10px 16px; color: #fff; flex:1; outline:none;"/>
+              <button type="submit" class="btn-primary" style="padding: 10px 20px;">Join</button>
+            </div>
+            <div class="news-msg" style="font-size:.82rem; margin-top:10px;"></div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 devashribuilders. All addresses RERA registered.</span><span>Crafted in Pune.</span></div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="/js/main.js?v=1"></script>
+</body>
+</html>
